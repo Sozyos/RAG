@@ -1,0 +1,14 @@
+{
+  "data": {
+    "kg_file": "data/kg.json",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "batch_size": 32
+  },
+  "retriever": {
+    "top_k": 5,
+    "similarity_threshold": 0.3,
+    "use_gpu": false
+  },
+  "debug": true,
+  "log_level": "INFO"
+}
